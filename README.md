@@ -136,13 +136,13 @@ The `mocha` command will run all the tests. You should have `mocha` installed
 and will need to pass all the tests in order to move on.
 
 To test only one of the test files at a time, you can run the command, `mocha
-test/<test file name>` (e.g. `mocha test/01-clean-climate-data.js`),
+test/<test file name>` (e.g. `mocha test/01-clean-climate-data-spec.js`),
 where `test` is the name of the test folder. You must run this command one
 directory above the `test` directory.
 
-_You may notice the `package.json`/`package-lock.json` files and
+_You may notice the `package.json`, `package-lock.json` files and
 `node_modules` directory. You do not need to edit any of those contents. Those
-files are what we use to package the project and create the test cases._
+files are used to package the project and create the test cases._
 
 ## Phase 1: Clean the Climate Data (Basic to Intermediate)
 

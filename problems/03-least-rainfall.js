@@ -20,7 +20,13 @@ Hint: How can you identify and access the correct data for a month such as
 "March"?
 */
 
-// Your code here
+
+function leastRainfall(climateData, month) {
+    // Your code here
+}
+
+// console.log(leastRainfall(climateData, "August"));
+
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

@@ -30,7 +30,15 @@ Note: You can solve this in multiple ways. Try using a few advanced array
 methods. Can you use helper methods to separate out the logic?
 */
 
+
+function temperatureRange(climateData) {
+  // Your code here
+};
+
 // Your code here
+
+// console.log(temperatureRange(climateData));
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 

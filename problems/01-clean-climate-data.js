@@ -11,7 +11,12 @@ For example, it should return:
 [ "Amsterdam, Netherlands", "Athens, Greece", ...plus 103 more cities ]
 */
 
-// Your code here
+function listAllCitiesWithCountries(climateData) {
+    // Your code here
+}
+
+// console.log(listAllCitiesWithCountries(climateData));
+
 
 
 /* 02. `listAllUsCities`
@@ -24,7 +29,13 @@ For example, it should return:
 [ 'Atlanta GA, United States', 'Austin TX, United States', ...plus more cities ]
 */
 
-// Your code here
+
+function listAllUsCities(climateData) {
+    // Your code here
+}
+
+// console.log(listAllUsCities(climateData));
+
 
 
 
@@ -38,7 +49,13 @@ was duplicated in id 3, 7, and 9, the returned object should look like:
 { 'Athens: [ 2 ], 'Mexico City': [ 3, 7, 9 ] }
 */
 
-// Your code here
+
+function findDuplicates(climateData) {
+    // Your code here
+}
+
+// console.log(findDuplicates(climateData));
+
 
 
 /* 04. `returnDuplicate` Which city object should be corrected in
@@ -54,7 +71,13 @@ HINT: Use documentation to research the `find()` method in JavaScript. You may,
 but do not have to, use this method to solve this problem.
 */
 
-// Your code here
+
+function returnDuplicate(climateData) {
+    // Your code here
+}
+
+// console.log(returnDuplicate(climateData));
+
 
 /* 05. `correctDuplicate` Correct the city name of the duplicated city.
 
@@ -68,7 +91,13 @@ with id of 5 to 'Nice' and then return that object with the corrected city name.
 HINT: Can you use functions you have already written to help solve this problem?
 */
 
-// Your code here
+
+function correctDuplicate(climateData, newCityName) {
+    // Your code here
+}
+
+// console.log(correctDuplicate(climateData, "Peoria IL"));
+
 
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
