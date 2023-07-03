@@ -132,13 +132,12 @@ To get started, use the following commands:
 2. `cd` into the project directory
 3. `npm install` to install dependencies
 
-The `mocha` command will run all the tests. You should have `mocha` installed
-and will need to pass all the tests in order to move on.
+The `npm test` command will run all the tests.
 
-To test only one of the test files at a time, you can run the command, `mocha
-test/<test file name>` (e.g. `mocha test/01-clean-climate-data-spec.js`),
-where `test` is the name of the test folder. You must run this command one
-directory above the `test` directory.
+To test only one of the test files at a time, you can run the command,
+`npm test test/<test file name>` (e.g.
+`npm test test/01-clean-climate-data-spec.js`), where `test` is the name of the
+test folder. You must run this command one directory above the `test` directory.
 
 _You may notice the `package.json`, `package-lock.json` files and
 `node_modules` directory. You do not need to edit any of those contents. Those
@@ -155,7 +154,7 @@ pull out specific information from the large data set. The last function require
 Complete each function in order, because you may want to use some of your
 earlier functions as helper functions in later problems.
 
-Run `mocha test/01-clean-climate-data-spec.js` to run all the test specs for
+Run `npm test test/01-clean-climate-data-spec.js` to run all the test specs for
 this phase. Run the tests frequently, because the error messages on your failed tests will help you debug your code.
 
 When all of the tests pass, you can move on to Phase 2.
@@ -165,13 +164,13 @@ When all of the tests pass, you can move on to Phase 2.
 In this phase, you will answer some trivia questions about world climate in the following files:
 
 - Most Snow Days: __problems/02-most-snow-days.js__
-  - Run tests: `mocha test/02-most-snow-days-spec.js`
+  - Run tests: `npm test test/02-most-snow-days-spec.js`
 
 - Least Rainfall: __problems/03-least-rainfall.js__
-  - Run tests: `mocha test/03-least-rainfall-spec.js`
+  - Run tests: `npm test test/03-least-rainfall-spec.js`
 
 - Greatest Temperature Difference: __problems/04-temperature-range.js__
-  - Run tests: `mocha test/04-temperature-range-spec.js`
+  - Run tests: `npm test test/04-temperature-range-spec.js`
 
 To answer each question, write a function (or a set of related functions) that
 will return the specific data from the data set. It is important to use the exact function name and arguments that are specified in the directions, otherwise the tests will not run properly. However, feel free to write multiple functions and call helper functions to help you solve each problem.
